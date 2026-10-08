@@ -16,7 +16,7 @@ DHT11 + DS3231 + pin Li-ion 3.7V + LCD GC9A01 1.28" 240x240.
 | | RST | GPIO3 |
 | | BLK | GPIO1 (hoặc nối 3V3) |
 | | VCC/GND | 3V3 / GND |
-| DS3231 | SDA / SCL | GPIO8 / GPIO9 |
+| DS3231 | SDA / SCL | GPIO5 / GPIO9 |
 | | VCC/GND | 3V3 / GND |
 | DHT11 | DATA | GPIO2 (pull-up 10k lên 3V3 nếu module chưa có) |
 | | VCC/GND | 3V3 / GND |
